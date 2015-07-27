@@ -1,10 +1,10 @@
 # Site settings
 title: jaisonv
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-description: "Meta description here!"
+email: jaisonnvieira@gmail.com
+description: "Jaison's personal website about programming for iOS with Swift"
 baseurl: ""
-url: "http://jaisonv.com"
+url: "http://jaisonv.github.io"
 twitter_username: jaisonnvieira
 github_username:  jaisonv
 linkedin_username:  jaisonvieira
