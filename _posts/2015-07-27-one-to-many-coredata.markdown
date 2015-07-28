@@ -4,6 +4,7 @@ title:      "One-to-many relationship using coredata"
 subtitle:   "One of the biggest difficulties that I faced when learning how to use Coredata was dealing with one-to-many..."
 date:       2015-07-27 01:00:00
 author:     "jaisonv"
+comments:   true
 header-img: "img/post-bg-01.jpg"
 ---
 
