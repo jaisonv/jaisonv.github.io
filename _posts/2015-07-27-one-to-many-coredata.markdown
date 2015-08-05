@@ -5,7 +5,6 @@ subtitle:   "One of the biggest difficulties that I faced when learning how to u
 date:       2015-07-27 01:00:00
 author:     "jaisonv"
 comments:   true
-header-img: "img/post-bg-01.jpg"
 ---
 
 One of the biggest difficulties that I faced when learning how to use Coredata was dealing with one-to-many relationship. In every website or Stack Overflow's question they only explain how to build the one-to-many relationship, but I couldn't find about how to add a child object to its parent.
