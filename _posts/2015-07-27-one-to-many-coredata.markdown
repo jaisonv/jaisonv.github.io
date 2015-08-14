@@ -13,7 +13,7 @@ To start i created the the model in the .xcdatamodeld file.
 
 Basically, I created 2 entities (Parent and Child) and a relationship in each one pointing the "Destination" to each other and the "Inverse" to the other's relationship.
 
-The Parent entity with it's atributes and relationship.
+The Parent entity with it's attributes and relationship.
 
 ![Coredata entities](/img/2015-07-27/img_1.png)
 
@@ -29,7 +29,7 @@ Its relationship's inspector will have the type set as "To One".
 
 ![Coredata entities](/img/2015-07-27/img_4.png)
 
-After modelling the entities I ask Xcode to generate de model classes.
+After modeling the entities I ask Xcode to generate de model classes.
 
 ![Coredata entities](/img/2015-07-27/img_5.png)
 

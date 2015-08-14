@@ -31,7 +31,7 @@ class Parent: NSManagedObject {
 }
 {% endhighlight %}
 
-This way we create a Swift class to implement the Extension (I will name it PersonExtensions.swift):
+This way we create a Swift class to implement the Extension (I will name it PersonExtension.swift):
 
 {% highlight erlang %}
 extension Person {
