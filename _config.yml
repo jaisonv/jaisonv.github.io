@@ -10,9 +10,13 @@ twitter_username: jaisonnvieira
 github_username:  jaisonv
 linkedin_username:  jaisonvieira
 
+# gems
+gems: [jekyll-paginate]
+
 # Build settings
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
 paginate: 5
+paginate_path: "/blog/page:num/"
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md", CNAME]

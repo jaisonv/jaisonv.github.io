@@ -1,0 +1,26 @@
+/* Customizations for the portifolio page */
+.project-logo {
+  width: 200px;
+  height: 200px;
+}
+.project-logo:hover {
+  cursor:pointer;
+  cursor:hand;
+}
+.section-title {
+  text-align: center;
+  margin-bottom:40px;
+}
+.thumbnail {
+  border: 0 none;
+}
+.obs {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 10px;
+}
+.caption {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+}

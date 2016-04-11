@@ -1,35 +1,42 @@
 ---
 layout: page
-description: "notes on coding"
+description: "portifolio"
 ---
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title"> {{ post.title }} </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-    </a>
-    <p class="post-meta">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
+<div class="projects-section">
+  <div class="apps-section">
+    <h2 class="section-title">apps</h2>
+    <div class="row">
+      <div class="col-xs-4">
+        <div class="thumbnail"><a href="https://itunes.apple.com/app/getbud-keep-track-your-money/id965592779?mt=8" target="_blank"><image class="project-logo" src="https://cloud.githubusercontent.com/assets/2567823/14414279/e6dc7876-ff66-11e5-9afa-683e9cd12146.png"></a>
+          <div class="caption text-center">Getbud</div>
+        </div>
+      </div>
+      <div class="col-xs-4">
+        <div class="thumbnail"><a href="https://itunes.apple.com/app/stone-mobile/id955541256?mt=8" target="_blank"><image class="project-logo" src="https://cloud.githubusercontent.com/assets/2567823/14416244/127624b6-ff7e-11e5-8cb8-fcaabc484072.png"></a>
+          <div class="caption text-center">Stone Mobile</div>
+        </div>
+      </div>
+      <div class="col-xs-4">
+        <div class="thumbnail"><a href="https://www.dropbox.com/s/wzfm50i1k4v650q/lift_app.mov" target="_blank"><image class="project-logo" src="https://is2-ssl.mzstatic.com/image/thumb/Purple7/v4/ec/24/d7/ec24d707-a489-d34f-4cc2-dae58b9f5997/pr_source.jpg/340x340bb-80.png"></a>
+          <div class="caption text-center">Lift <span class="obs">*pending aproval</span></div>
+        </div>
+      </div>
+      <div class="col-xs-4">
+        <div class="thumbnail"><a href="#" target="_blank"><image class="project-logo" src="https://cloud.githubusercontent.com/assets/2567823/14416089/c1451242-ff7c-11e5-93ab-9f214070dab4.png"></a>
+          <div class="caption text-center">fanfood <span class="obs">*pending aproval</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="others-section">
+    <h2 class="section-title">other</h2>
+    <div class="row">
+      <div class="col-xs-4">
+        <div class="thumbnail"><a href="https://github.com/stone-pagamentos/sdk-ios-v2" target="_blank"><image class="project-logo" src="https://cloud.githubusercontent.com/assets/2567823/14415952/002b1e7c-ff7b-11e5-953e-4f6dc8568455.png"></a>
+          <div class="caption text-center">Stone SDK</div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-<hr>
-{% endfor %}
-
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
